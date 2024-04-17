@@ -1,0 +1,50 @@
+:root{
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 15px;
+  font-family: 'Outfit',sans-serif;
+  background-color: var(--light-gray);
+}
+h1{
+  font-weight: 700;
+  color: var(--dark-blue);
+  font-size: 1.4rem;
+  padding: 20px 0;
+}
+p{
+  font-weight: 400;
+  color: var(--grayish-blue);
+  font-size: 1rem;
+}
+main{
+  max-width: 1440px;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  background-color: var(--white);
+  width: 320px;
+  height: 500px;
+  border-radius: 16px;
+  padding: 16px;
+  text-align: center;
+}
+.qr-code-bg{
+  width: 288px;
+  height: 288px;
+  background: url(images/image-qr-code.png) center no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+}
